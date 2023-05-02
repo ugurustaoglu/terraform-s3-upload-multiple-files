@@ -9,7 +9,7 @@ s3_attach_deny_insecure_transport_policy   = true # Controls if S3 bucket should
 s3_attach_require_latest_tls_policy = true # Controls if S3 bucket should require the latest version of TLS
 
 s3_block_public_acls = true # Whether Amazon S3 should block public ACLs for this bucket.
-s3_block_public_policy = true # Controls if a user defined public bucket policy will be attached (set to false to allow upstream to apply defaults to the bucket)
+s3_block_public_policy = false # Controls if a user defined public bucket policy will be attached (set to false to allow upstream to apply defaults to the bucket)
 
 s3_ignore_public_acls      = true                  # Whether Amazon S3 should ignore public ACLs for this bucket.
 s3_restrict_public_buckets = true                  # Whether Amazon S3 should restrict public bucket policies for this bucket.
